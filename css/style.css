@@ -1,0 +1,37 @@
+.box{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    transition: all 2s;
+}
+
+#div1{
+    background-color: red;
+/*    transition: width 2s;*/
+}
+#div1:hover{
+    width: 300px;
+}
+
+#div2{
+    background-color: blue;
+/*    transition: height 2s;*/
+}
+
+#div2:hover{
+    background-color: blue;
+    height: 300px;
+}
+
+#div3{
+    background-color: green;
+/*    transition: all 2s;*/
+}
+
+#div3:hover{
+    width: 300px;
+    height: 300px;
+}
+
+
